@@ -16,4 +16,4 @@ install: $(TARGET)
 	mkdir -p $(BINDIR)
 	install -m 755 $(TARGET) $(BINDIR)/$(TARGET)
 show:
-	defaults read ~/Library/Preferences/com.apple.HIToolbox.plist AppleEnabledInputSources
+	swift available_input_method.swift
