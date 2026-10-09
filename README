@@ -1,0 +1,15 @@
+== usage 
+
+    make install 
+    iswitch -i <input_method_id>
+
+== example 
+
+switch to Pinyin input method: 
+    iswitch -i com.apple.inputmethod.SCIM.ITABC
+
+switch to ABC:
+    iswitch
+
+show available input method:
+    make show
