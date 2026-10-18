@@ -14,6 +14,7 @@ int main(int argc, char *argv[]) {
         if (source_id == NULL) {
                 return 0;
         }
+
         // if equal then return
         TISInputSourceRef current = TISCopyCurrentKeyboardInputSource();
         if (current != NULL) {
